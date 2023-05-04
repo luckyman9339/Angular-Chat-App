@@ -1,0 +1,125 @@
+/**
+ *  Do not remove this comments bellow. It's the markers used by wiredep to inject
+ *  sass dependencies when defined in the bower.json of your dependencies
+ */
+// bower:scss
+// endbower
+
+/**
+ *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+// injector
+// endinjector
+
+body{
+  background-image: url('https://newevolutiondesigns.com/images/freebies/google-material-design-wallpaper-14.jpg');
+  background-size: cover;
+}
+
+.avatar img{
+  height: 128px;
+  border-radius: 50%;
+  box-sizing: content-box;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cover{
+  background-color: #EBEBEB;
+
+  .fullname{
+    margin-bottom: 3px;
+    margin-top: 0px;
+  }
+  .username{
+    margin-bottom:5px;
+  }
+}
+
+message md-chips{
+  margin: auto;
+  .md-chips{
+    box-shadow: none;
+  }
+}
+
+message div.md-list-item-text.compact{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.md-list-item-text.compact .message-content{
+  background-color: #F5F5F5;
+  border-color: #F5F5F5;
+  padding: 10px;
+  margin: 0px;
+  position: relative;
+}
+
+message {
+  margin-bottom: 10px;
+}
+message:not(.repeated-author) .message-content:before{
+  left: -8px;
+  border-width: 0 8px 8px 0 !important;
+  border-right-color: inherit;
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-bottom-color: transparent;
+}
+
+message:not(.repeated-author) md-list-item{
+  margin-top: 20px;
+}
+.repeated-author{
+  img.md-avatar {
+    opacity: 0;
+    height: 0;
+  }
+}
+
+.repeated-author p, .repeated-author small {
+  display: none;
+}
+
+message .md-avatar.message-avatar{
+  margin-bottom: 0px;
+}
+
+message md-list-item.contact-item{
+  min-height: 0;
+}
+
+.room-users{
+  max-height: 60vh;
+  md-list{
+    padding: 0px;
+
+    md-list-item{
+      background-color: white;
+    }
+  }
+}
+
+.login-frame img, .registration-frame img {
+  max-height: 100px;
+  width: auto;
+  margin: auto;
+}
+
+.login-frame md-card, .registration-frame md-card {
+  max-width: 400px;
+  margin: auto;
+}
+
+.full-height {
+  height: 100%;
+  box-sizing: border-box;
+}
